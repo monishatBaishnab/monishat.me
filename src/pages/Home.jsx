@@ -2,10 +2,8 @@ import Header from "../components/Home/Header/Header";
 
 const Home = () => {
     return (
-        <div>
+        <div className="container pt-0">
             <Header />
-            <h3 className="min-h-screen">Home</h3>
-            <h3 className="min-h-screen">Home</h3>
         </div>
     );
 };
