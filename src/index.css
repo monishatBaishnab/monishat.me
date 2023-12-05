@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Varela+Round&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    @apply bg-dark text-secondery font-varela
+  }
+  h1{
+    @apply text-5xl text-white font-semibold
+  }
+  h2{
+    @apply text-4xl text-white font-semibold
+  }
+  h3{
+    @apply text-3xl text-white font-semibold
+  }
+  h4{
+    @apply text-2xl text-white font-semibold
+  }
+  h5{
+    @apply text-xl text-white font-semibold
+  }
+  h6{
+    @apply text-lg text-white font-semibold
+  }
+}
+
+@layer components{
+  .container {
+    @apply max-w-screen-xl mx-auto px-5 md:px-10 py-10
+  }
+}
