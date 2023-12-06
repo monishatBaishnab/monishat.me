@@ -5,7 +5,7 @@ import monishat from '../../../assets/moni.png';
 const Header = () => {
     return (
         <div id="home" className="pt-[67px] -mt-[67px] min-h-screen flex items-center relative">
-            <div className="container grid grid-cols-1 gap-5 md:grid-cols-2 items-center py-0">
+            <div className="container grid grid-cols-1 gap-5 md:grid-cols-2 items-center">
                 <div className="space-y-5">
                     <h4 className="font-normal text-slate-400">Welcome to my coding corner!</h4>
                     <h2>{`Hello 👋, I'm Monishat Baishnab`}</h2>

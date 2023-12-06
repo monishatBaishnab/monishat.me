@@ -4,8 +4,11 @@
 @tailwind utilities;
 
 @layer base{
+  html{
+    @apply scroll-smooth
+  }
   body{
-    @apply bg-dark text-secondery font-varela
+    @apply bg-dark text-white font-varela
   }
   h1{
     @apply text-4xl md:text-5xl text-white font-semibold
@@ -24,6 +27,9 @@
   }
   h6{
     @apply text-lg text-white font-semibold
+  }
+  p{
+    @apply text-slate-400
   }
 }
 
