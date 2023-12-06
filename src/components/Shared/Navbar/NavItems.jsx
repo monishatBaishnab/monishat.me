@@ -20,7 +20,7 @@ const NavItems = () => {
         }
     ]
     return (
-        <Scrollspy className="flex items-center gap-2" items={['home', 'about', 'projects']} currentClassName='text-primary'>
+        <Scrollspy className="flex flex-col md:items-center gap-2 md:flex-row" items={['home', 'about', 'projects']} currentClassName='text-primary'>
             {navLists?.map(item => (
             <li key={item.level}>
                 <a href={item.path} className='flex items-center transition-all hover:text-primary'>

@@ -7,9 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#C778DD',
-        'secondery': '#ABB2BF',
-        'dark': '#282C33'
+        'primary': '#22c55e',
+        'secondery': '#64748b',
+        'dark': '#011627'
       },
       fontFamily: {
         'borel': "'Borel', cursive",
