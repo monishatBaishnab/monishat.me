@@ -23,17 +23,17 @@ const Navbar = () => {
     return (
         <div>
             <Headroom pin={scrollY >= 200}>
-                <div className={scrollY >= 200 ? ' border-b-slate-700 border-b bg-dark backdrop-blur-lg bg-opacity-50 text py-2 transition-all' : 'py-0 transition-all'}>
+                <motion.div initial={{opacity: 0}} animate={{opacity: 1}} className={scrollY >= 200 ? ' border-b-slate-700 border-b bg-dark backdrop-blur-lg bg-opacity-50 text py-2 transition-all' : 'py-0 transition-all'}>
                     <div className='container py-2'>
                         <div className='flex items-center justify-between'>
                             <NavLogo />
                             <div className='hidden md:inline-block'>
                                 <NavItems />
                             </div>
-                            <motion.button whileTap={{ scale: .9 }} onClick={() => setOpenSideNav(!openSideNav)} className='bg-slate-700 p-2 rounded-md text-xl text-secondery transition-colors hover:text-primary md:hidden'><FaBarsProgress /></motion.button>
+                            <motion.button whileTap={{ scale: .9 }} onClick={() => setOpenSideNav(!openSideNav)} className='bg-slate-700 p-2 rounded-md text-xl text-white transition-colors hover:text-primary md:hidden'><FaBarsProgress /></motion.button>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </Headroom>
             <motion.div
                 initial={{ opacity: 0 }}

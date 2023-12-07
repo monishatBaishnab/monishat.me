@@ -1,18 +1,19 @@
 import aboutImg from '../../../assets/about-img.jpg'
+import SectionTitle from '../../Shared/Section/SectionTitle';
 
 const About = () => {
     return (
-        <div id="about" className="min-h-screen -scroll-mt-2 bg-white/5">
+        <div id="about" className="min-h-screen -scroll-mt-4 bg-white/5">
             <div className="container space-y-10">
-                <div className="text-center space-y-3">
-                    <h2 className="font-normal text-primary">About Me</h2>
-                    <p className="max-w-3xl mx-auto">Energetic and eager to contribute, join me in my coding corner as I navigate React, shaping web experiences and connecting with the vibrant MERN community.</p>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10 items-center">
-                    <div className="col-span-1 border-2">
+                <SectionTitle
+                    title='About Me'
+                    subTitle='Energetic and eager to contribute, join me in my coding corner as I navigate React, shaping web experiences and connecting with the vibrant MERN community.'
+                />
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10 items-center overflow-hidden">
+                    <div className="col-span-1 border-2" data-aos='fade-right' data-aos-duration="1000">
                         <img src={aboutImg} alt="about-img" />
                     </div>
-                    <div className="col-span-2 space-y-4">
+                    <div className="col-span-2 space-y-4 order-first md:order-last" data-aos='fade-left' data-aos-duration="1000">
                         <h4 className="font-normal">Hi There 👋</h4>
                         <p>{`Welcome to my Coding Corner! I'm an enthusiastic and energetic MERN (MongoDB, Express.js, React, Node.js) developer hailing from the vibrant tech scene of Bangladesh. As a budding talent in the MERN stack, my journey is fueled by passion and self-motivation, ready to immerse myself in the dynamic world of web development.`}</p>
                         <p>{`🚀 Embracing the MERN stack's power, I am currently honing my skills in React for crafting engaging user interfaces and leveraging Node.js/Express.js for robust server-side scripting. My hands-on experiences and exploration of real-world projects serve as stepping stones, propelling me forward and keeping me aligned with the latest industry trends.`}</p>
