@@ -1,10 +1,11 @@
 import { TypeAnimation } from "react-type-animation";
 import { motion } from 'framer-motion';
 import monishat from '../../../assets/moni.png';
+import { IoMdCodeDownload } from "react-icons/io";
 
 const Header = () => {
     return (
-        <div id="home" className="pt-[67px] -mt-[67px] min-h-screen flex items-center relative">
+        <div id="home" className="min-h-screen relative flex items-center pt-[67px] -mt-[67px] ">
             <div className="container grid grid-cols-1 gap-5 md:grid-cols-2 items-center">
                 <div className="space-y-5" data-aos='fade-up' data-aos-duration="1000">
                     <h4 className="font-normal text-slate-400">Welcome to my coding corner!</h4>
@@ -28,7 +29,13 @@ const Header = () => {
                         />
                     </h4>
                     <div className="flex items-center gap-5">
-                        <motion.button whileHover={{ translateY: -5 }} whileTap={{ scale: .9 }} className="px-6 py-2 border-2 rounded-md border-primary hover:bg-primary transition-bg hover:text-white">Resume</motion.button>
+                        <motion.button
+                            whileHover={{ translateY: -5 }}
+                            whileTap={{ scale: .9 }}
+                            className="px-6 py-2 border-2 flex items-center gap-2 rounded-md transition-[background] border-primary hover:bg-primary transition-bg hover:text-white">
+                            Resume
+                            <IoMdCodeDownload className="text-2xl" />
+                        </motion.button>
                     </div>
                 </div>
                 <div className="h-[400px] overflow-hidden w-full flex justify-center pb-5" data-aos='fade-down' data-aos-duration="1000">

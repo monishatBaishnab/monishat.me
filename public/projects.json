@@ -1,0 +1,48 @@
+[
+    {
+        "title": "EduSync",
+        "thumbnail": "https://i.ibb.co/stfsY68/23126584-202.jpg",
+        "description": "EduSync: Revolutionizing learning with dynamic assignments. Empower users seamlessly. Explore now!",
+        "github": {
+            "clientCode": "https://github.com/monishatBaishnab/EduSync-Assignment-Management",
+            "serverCode": "https://github.com/monishatBaishnab/EduSync-Assignment-Management/tree/server"
+        },
+        "liveLink": "https://edusync-7a3f5.web.app/",
+        "tags": [
+            "React",
+            "Firebase"
+        ]
+    },
+    {
+        "title": "TechStore",
+        "thumbnail": "https://i.ibb.co/1KWgywY/Tech-Store.jpg",
+        "description": "Your go-to for cutting-edge tech! Seamless shopping, secure login, brand-centric, and customizable with light/dark modes. Discover now!",
+        "github": {
+            "clientCode": "https://github.com/monishatBaishnab/TechStore-Ecommerce-website",
+            "serverCode": "https://github.com/monishatBaishnab/TechStore-Ecommerce-website/tree/server"
+        },
+        "liveLink": "https://techstore-aac9a.web.app/",
+        "tags": [
+            "React",
+            "Node.js",
+            "Express",
+            "MongoDB"
+        ]
+    },
+    {
+        "title": "Fluxify",
+        "thumbnail": "https://i.ibb.co/yPtgw4F/Fluxify.jpg",
+        "description": "Dynamic forum management with an intuitive admin dashboard, user management, and more. Join today for a thriving online community!",
+        "tags": [
+            "React",
+            "Node.js",
+            "MongoDB",
+            "Firebase"
+        ],
+        "github": {
+            "clientCode": "https://github.com/monishatBaishnab/Fluxify-Forum-manegement-system",
+            "serverCode": "https://github.com/monishatBaishnab/Fluxify-Forum-manegement-system/tree/server"
+        },
+        "liveLink": "https://fluxify-72def.firebaseapp.com/"
+    }
+]
